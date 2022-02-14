@@ -10,3 +10,11 @@ app.get ('/', (req,res) => {
 
 
 app.listen(3000)
+
+app.set('view engine', 'ejs');
+
+app.get('/', (req, res) => {
+  res.render('home')
+});
+
+<a  href="/index.ejs" class=""></a>
